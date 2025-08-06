@@ -294,3 +294,24 @@ For issues and questions:
 - Create an issue in the GitHub repository
 - Check the troubleshooting section
 - Review the example usage patterns
+
+
+
+```
+{
+  "mcpServers": {
+    "github-docs": {
+      "command": "node",
+      "args": ["/Users/rami/Documents/bitartes/mcps/github-docs-mcp/build/index.js"],
+      "env": {
+        "GITHUB_TOKEN": "",
+        "OPENAI_API_KEY": "",
+        "AUTO_INDEX_ORG": "bitartes",
+        "AUTO_INDEX_INTERVAL": "3600000",
+        "AUTO_INDEX_ON_STARTUP": "true"
+      }
+    }
+  }
+}
+
+```
